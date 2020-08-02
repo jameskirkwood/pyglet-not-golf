@@ -1,4 +1,5 @@
-import pyglet, res, util, math
+import pyglet, math
+from . import res, util
 
 class Ball(pyglet.sprite.Sprite):
 	def __init__(self, x=256, y=10, batch=None):
@@ -30,7 +31,7 @@ class Ball(pyglet.sprite.Sprite):
 		self.vx,self.vy=util.rot((-relv[0],relv[1]),angle)
 
 	def interact(self, obj):
-		import wall, mass
+		from . import wall, mass
 		dx=self.x-obj.x
 		dy=self.y-obj.y
 		d=(dx**2+dy**2)**0.5

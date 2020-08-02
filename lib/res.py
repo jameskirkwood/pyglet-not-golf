@@ -1,7 +1,7 @@
 import pyglet
 
 pyglet.resource.path=["res"]
-print pyglet.resource.reindex()
+print(pyglet.resource.reindex())
 
 mass=pyglet.resource.image("planet.png")
 ball=pyglet.resource.image("ball.png")

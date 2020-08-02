@@ -1,4 +1,5 @@
-import pyglet, ball, wall, mass
+import pyglet
+from . import ball, wall, mass
 
 class Level():
 	def __init__(self, win, batch=None):

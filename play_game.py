@@ -19,6 +19,6 @@ game.restart(win, batch=gbat_world)
 
 # // start  game // #
 
-print '\nQUANTUM MINIGOLF STARTED\n'
+print('\nQUANTUM MINIGOLF STARTED\n')
 if __name__=='__main__':
 	pyglet.app.run()

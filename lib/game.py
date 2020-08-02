@@ -1,4 +1,5 @@
-import pyglet, level
+import pyglet
+from . import level
 
 def restart(win, batch=None):
 	lvl_disp=pyglet.text.Label(text='Level 1',x=win.width/2-27,y=win.height-15,batch=batch)
