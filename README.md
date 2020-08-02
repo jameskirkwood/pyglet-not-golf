@@ -13,6 +13,6 @@ python3 play_game.py
 
 # Credit
 
-All assets are my own work. See [res/README.md](res/README.md).
+All assets are my own work. See [res/README.md](res).
 
 Have fun and feel free to study the code :)
